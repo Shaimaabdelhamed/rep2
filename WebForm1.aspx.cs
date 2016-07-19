@@ -33,7 +33,7 @@ namespace requiredtasks
           //  ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('"+ counter+"' )", true);          
             report rprt = new report();
             int count = (int) ViewState["counter"];
-            Label1.Text = count.ToString();
+            //Label1.Text = count.ToString();
             counter++;
             ViewState["counter"]= counter;
 
