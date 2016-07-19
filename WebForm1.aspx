@@ -34,7 +34,7 @@
         </div>
         <div class="col-lg-3">
             <asp:Timer ID="Timer1" runat="server" Interval="5000"></asp:Timer>
-             Number Of Written Dates is :    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+             
         </div>
     
     </div>
